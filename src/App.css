@@ -94,8 +94,9 @@ h2 {
 @media only screen and (max-width: 785px) {
   .tile-left, .tile-center, .tile-right {
     width: 100%;
-    justify-content: center;
     border: none;
+    margin: auto;
+    justify-content: center;
   }
   .navbar-links {
     display: none;
@@ -104,28 +105,13 @@ h2 {
     flex-wrap: wrap;
   }
   h2, p {
-    font-size: 20px;
+    font-size: 5vw;
   }
   .menu p {
     display: none;
   }
   .menu img {
     width: 20px;
-  }
-  .tile-left, .tile-center, .tile-right {
-    margin: auto;
-  }
-  .tile-center img {
-    margin-left: 66px;
-  }
-}
-@media only screen and (max-width: 385px) {
-  .tile-left, .tile-center, .tile-right {
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-  .tile-right img {
-    margin-left: 80px;
   }
 }
 
