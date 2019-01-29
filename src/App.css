@@ -104,8 +104,12 @@ h2 {
   .tiles {
     flex-wrap: wrap;
   }
+  h2 {
+    margin-right: 20px;
+
+  }
   h2, p {
-    font-size: 5vw;
+    font-size: 10px;
   }
   .menu p {
     display: none;
