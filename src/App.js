@@ -15,7 +15,7 @@ class App extends Component {
           <div class="logo">
             <img src={Logo} alt="main-logo"/>
           </div>
-          <div class="nav-bar">
+          <div className="nav-bar">
               <a href="#" className="menu">
                 <p>Menu</p><img src={Hamburger} id="hamburger" alt="menu" onClick={this.handleClick}/>
               </a>
@@ -26,7 +26,7 @@ class App extends Component {
               </div>
           </div>
         </header>
-          <div class="tiles">
+          <div className="tiles">
             <div className="tile-left">
               <img src={GoMobile} alt="goMobile" />
               <div className="content-tile">

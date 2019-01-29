@@ -81,6 +81,8 @@ h2 {
 }
 .content-tile {
   margin-top: 6px;
+  width: 100%;
+  margin: 0 auto;
 }
 .tiles img {
   height: auto;
