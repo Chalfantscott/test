@@ -6,7 +6,7 @@
   border-bottom: 1px solid #08a4da;
 }
 .logo {
-  margin: auto 0 auto 20px;
+  margin: auto 0 auto 40px;
 }
 .nav-bar {
   width: 100%;
@@ -14,9 +14,9 @@
 .menu {
   border: 1px solid #e63f51;
   background-color: #f9f9f9;
-  font-family: 'Source Sans Pro';
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: bolder;
-
+  margin-right: 40px;
 }
 .menu p {
   display: inline;
@@ -34,7 +34,7 @@ a {
   margin: 30px 15px;
   padding: 8px;
   color:#676767;
-  font-family: 'Source Sans Pro';
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: bolder; 
   font-size: 120%; 
   cursor: pointer;
@@ -47,23 +47,26 @@ a:hover {
   border-top: 1px solid #d2e4ff;
   display: flex;
   justify-content: center;
-  font-family: 'Source Sans Pro';
+  font-family: 'Source Sans Pro', sans-serif;
   height: 120px;
   background-color: #f9f9f9;
 }
- 
-.mobile_tile1, .mobile_tile2, .mobile_tile3 {
+.tile-left, .tile-center, .tile-right {
   padding: 18px 80px;
   margin: 4px auto;
   display: flex;
   height: auto;
   background-color: #f9f9f9;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  
 }
-.mobile_tile2 {
+.tile-center {
   border-left: 1px dashed #08a4da;
   border-right: 1px dashed #08a4da;
 }
-
 h2, p {
   color: #676767;
   margin: 0;
@@ -73,11 +76,9 @@ p {
   font-size: 0.95em;
   font-weight: bold;
 }
-
 .content-tile {
   margin-top: 6px;
 }
-
 .tiles img {
   height: auto;
   margin: 10px 28px;
@@ -88,7 +89,7 @@ p {
   border-bottom: 5px;
 }
 @media only screen and (max-width: 785px) {
-  .mobile_tile1, .mobile_tile2, .mobile_tile3 {
+  .test-left, .tile-center, .tile-right {
     width: 100%;
     justify-content: center;
     border: none;

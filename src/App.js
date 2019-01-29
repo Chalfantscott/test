@@ -26,38 +26,30 @@ class App extends Component {
               </div>
           </div>
         </header>
-
-        <body>
-        <div class="tiles">
-
-          <div className="mobile_tile1">
-            <img src={GoMobile} alt="goMobile" />
-            <div className="content-tile">
-              <h2 className="title-tile">Go Mobile</h2>
-              <p>Download the App</p>
+          <div class="tiles">
+            <div className="tile-left">
+              <img src={GoMobile} alt="goMobile" />
+              <div className="content-tile">
+                <h2 className="title-tile">Go Mobile</h2>
+                <p>Download the App</p>
+              </div>
             </div>
-          </div>
-
-          <div className="mobile_tile2">
-            <img src={Hand} alt="hand" />
-            <div className="content-tile">
-              <h2 className="title-tile">Refer Someone!</h2>
-              <p>You'll each get $25!</p>
+            <div className="tile-center">
+              <img src={Hand} alt="hand" />
+              <div className="content-tile">
+                <h2 className="title-tile">Refer Someone!</h2>
+                <p>You'll each get $25!</p>
+              </div>
             </div>
-          </div>
-
-          <div className="mobile_tile3">
-            <img src={Auto} alt="auto" />
-            <div className="content-tile">
-              <h2 className="title-tile">Refinancing</h2>
-              <p>Get a low rate!</p>
+            <div className="tile-right">
+              <img src={Auto} alt="auto" />
+              <div className="content-tile">
+                <h2 className="title-tile">Refinancing</h2>
+                <p>Get a low rate!</p>
+              </div>
             </div>
+
           </div>
-
-        </div>
-
-
-        </body>
       </div>
     );
   }
