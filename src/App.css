@@ -61,7 +61,6 @@ a:hover {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  
 }
 .tile-center {
   border-left: 1px dashed #08a4da;
@@ -71,10 +70,14 @@ h2, p {
   color: #676767;
   margin: 0;
   font-weight: bold;
+  font-size: 2vw;
 }
 p {
   font-size: 0.95em;
   font-weight: bold;
+}
+h2 {
+  margin-right: 60px;
 }
 .content-tile {
   margin-top: 6px;
@@ -89,7 +92,7 @@ p {
   border-bottom: 5px;
 }
 @media only screen and (max-width: 785px) {
-  .test-left, .tile-center, .tile-right {
+  .tile-left, .tile-center, .tile-right {
     width: 100%;
     justify-content: center;
     border: none;
@@ -99,6 +102,9 @@ p {
   }
   .tiles {
     flex-wrap: wrap;
+  }
+  h2, p {
+    font-size: 3vw;
   }
 }
 

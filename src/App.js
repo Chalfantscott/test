@@ -48,7 +48,6 @@ class App extends Component {
                 <p>Get a low rate!</p>
               </div>
             </div>
-
           </div>
       </div>
     );
