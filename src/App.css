@@ -112,6 +112,12 @@ h2 {
   .menu img {
     width: 20px;
   }
+  .tile-left, .tile-center, .tile-right {
+    margin: auto;
+  }
+  .tile-center img {
+    margin-left: 66px;
+  }
 }
 
 
