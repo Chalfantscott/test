@@ -104,7 +104,13 @@ h2 {
     flex-wrap: wrap;
   }
   h2, p {
-    font-size: 3vw;
+    font-size: 20px;
+  }
+  .menu p {
+    display: none;
+  }
+  .menu img {
+    width: 20px;
   }
 }
 
